@@ -14,6 +14,9 @@ pip install -r requirements.txt
 conda install 'llvm-openmp<16'
 ```
 
+## CKPT
+Please download pretrained model from https://huggingface.co/lch01/StreamVGGT.
+
 ## Run Inference
 ``` bash
 python demo_viser.py --seq_path examples/whiteroom
