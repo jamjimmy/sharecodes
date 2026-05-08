@@ -1,5 +1,5 @@
 # GEM3R: Geometry-Guided Memory for Long-Horizon Streaming 3D Reconstruction
-## Experiments logs
+## Experiment logs
 ```
 Tab1: logs/recon
 Tab2: logs/video_depth
