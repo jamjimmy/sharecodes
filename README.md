@@ -19,7 +19,7 @@ conda install 'llvm-openmp<16'
 python demo_viser.py --seq_path examples/whiteroom
 ```
 
-## Run eval
+## Run Eval
 
 ``` bash
 cd src
