@@ -1,8 +1,3 @@
-"""
-demo_viser.py
-StreamVGGT Inference & Visualization Pipeline
-"""
-
 import os
 import sys
 import argparse
