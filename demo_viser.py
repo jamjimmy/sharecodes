@@ -91,8 +91,7 @@ def run_inference(model, img_paths, device, size=512, args=None):
             inputs,
             max_frames=args.keep_max_frames, 
             loop_closure_last_k=args.loop_closure_last_k, 
-            loop_closure_neighbor_k=args.loop_closure_neighbor_k, 
-            use_voxel_seen_points_v2=args.use_voxel_seen_points_v2, 
+            loop_closure_neighbor_k=args.loop_closure_neighbor_k
         )
 
     # Unpack structured results directly to tensors
@@ -165,7 +164,6 @@ def main():
     parser.add_argument("--frame_interval", type=int, default=1)
     parser.add_argument("--port", type=int, default=9999)
     parser.add_argument("--total_budget", type=int, default=1200000)
-    parser.add_argument("--use_voxel_seen_points_v2", action="store_true")
     parser.add_argument("--keep_max_frames", type=int, default=20, help="max frames limit for voxel seen points")
     parser.add_argument("--loop_closure_neighbor", type=int, default=20)
     parser.add_argument("--loop_closure_last_k", type=int, default=20)
