@@ -23,7 +23,7 @@ conda install 'llvm-openmp<16'
 
 ## 📦 Pretrained Checkpoint
 
-Download the pretrained model from [HuggingFace URL🤗](https://huggingface.co/lch01/StreamVGGT).
+Download `checkpoint.pth` from the [HuggingFace URL🤗](https://huggingface.co/lch01/StreamVGGT) and place it under `ckpt/`.
 
 ---
 
