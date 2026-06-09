@@ -1,4 +1,4 @@
-# Paper Title
+# GEM3R: Geometry-Guided Memory for Long-Horizon Streaming 3D Reconstruction
 
 ## 📋 Experiment Logs
 
